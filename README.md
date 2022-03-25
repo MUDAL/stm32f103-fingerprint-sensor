@@ -19,6 +19,9 @@ It requires a 3.3v power supply, and it is compatible with microcontrollers that
 It has a default baud rate of 57600 for UART communication.  
 In order to communicate with the sensor, some data must be transmitted to the sensor by the microcontroller.  
 Upon receiving data from the microcontroller, the fingerprint sensor gives a feedback (or response) which is also called a **packet**.  
+More information on the contents of a data **packet** can be found in the manual below.  
+[fingerprint_sensor_manual.pdf](https://github.com/MUDAL/stm32f103-fingerprint-sensor/files/8353945/fingerprint_sensor_manual.pdf)  
 
+Special thanks to @Adafruit for their contribution to open source hardware and software
 
 
