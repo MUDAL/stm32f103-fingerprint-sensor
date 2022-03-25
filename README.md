@@ -22,6 +22,13 @@ Upon receiving data from the microcontroller, the fingerprint sensor gives a fee
 More information on the contents of a data **packet** can be found in the manual below.  
 [fingerprint_sensor_manual.pdf](https://github.com/MUDAL/stm32f103-fingerprint-sensor/files/8353945/fingerprint_sensor_manual.pdf)  
 
+## Sample codes  
+Three sample codes are provided in this repo in order to test the fingerprint sensor.  
+The test applications include:  
+1. Enrolling a finger  
+2. Scanning (or searching) for a fingerprint in the sensor's database  
+3. Deleting a specific fingerprint from the sensor's database.   
+
 ## More information
 I'm open to collaboration and improvement of the codebase. The codes can be customized to match different microcontrollers and   
 applications. Porting the library from platform to platform isn't an issue. All that is required is the understanding of UART  
